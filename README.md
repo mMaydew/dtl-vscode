@@ -1,6 +1,6 @@
-## Description
+## Why?
 ---
-A VS code extension that adds syntax highlighting for Sesam's Data Transformation Language (DTL).
+DTL is a JSON based language and highlighting would make it 10 times easier to read and work on these files outside of the Sesam platform.
 
 
 ## TODO:
