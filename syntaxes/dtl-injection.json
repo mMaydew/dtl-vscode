@@ -1,0 +1,176 @@
+{
+  "scopeName": "dtl.injection",
+  "injectionSelector": "L:string.quoted.double.json.comments",
+  "patterns": [
+    {
+      "include": "#expression"
+    }
+  ],
+  "repository": {
+    "vars": {
+      "match": "_S\\.|_T\\.|_P\\.|_R\\.|_B\\.|_\\.",
+      "name": "support.type.property-name.json.comments"
+    },
+    "transforms": {
+      "match": "\"add\"|\"add-if\"|\"copy\"|\"create\"|\"create-child\"|\"default\"|\"discard\"|\"filter\"|\"make-ni\"|\"merge\"|\"merge-union\"|\"remove\"|\"rename\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "bool-logic": {
+      "match": "\"all\"|\"and\"|\"any\"|\"not\"|\"or\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "booleans": {
+      "match": "\"boolean\"|\"is-boolean\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "bytes": {
+      "match": "\"base64-decode\"|\"base64-encode\"|\"bytes\"|\"is-bytes\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "comparisons": {
+      "match": "\"eq\"|\"gt\"|\"gte\"|\"lt\"|\"lte\"|\"neq\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "conditionals": {
+      "match": "\"case\"|\"case-eq\"|\"if\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "datetime": {
+      "match": "\"datetime\"|\"datetime-diff\"|\"datetime-format\"|\"datetime-parse\"|\"datetime-plus\"|\"datetime-shift\"|\"is-datetime\"|\"now\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "dicts": {
+      "match": "\"dict\"|\"has-key\"|\"is-dict\"|\"items\"|\"key-values\"|\"keys\"|\"values\"|\"apply-ns\"|\"path\"|\"apply\"|\"apply-hops\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "encryption": {
+      "match": "\"decrypt\"|\"decrypt-pgp\"|\"decrypt-pki\"|\"encrypt\"|\"encrypt-pgp\"|\"encrypt-pki\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "hops": {
+      "match": "\"hops\"|\"lookup-entity\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "json": {
+      "match": "\"json\"|\"json-parse\"|\"json-transit\"|\"json-transit-parse\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "lists": {
+      "match": "\"combine\"|\"count\"|\"distinct\"|\"enumerate\"|\"filter\"|\"first\"|\"flatten\"|\"group\"|\"group-by\"|\"in\"|\"insert\"|\"is-empty\"|\"is-list\"|\"is-not-empty\"|\"last\"|\"list\"|\"map\"|\"map-dict\"|\"map-values\"|\"max\"|\"min\"|\"nth\"|\"range\"|\"reversed\"|\"slice\"|\"sorted\"|\"sorted-descending\"|\"sum\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "math": {
+      "match": "\"-\"|\"*\"\"\/\"|\"%\"|\"^\"|\"+\"|\"abs\"|\"ceil\"|\"cos\"|\"divide\"|\"floor\"|\"minus\"|\"mod\"|\"multiply\"|\"plus\"|\"pow\"|\"round\"|\"sin\"|\"sqrt\"|\"tan\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "misc": {
+      "match": "\"fail!\"|\"hash128\"|\"is-changed\"|\"literal\"|\"tuples\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "ni": {
+      "match": "\"is-ni\"|\"ni\"|\"ni-collapse\"|\"ni-expand\"|\"ni-id\"|\"ni-ns\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "nulls": {
+      "match": "\"coalesce\"|\"if-null\"|\"is-not-null\"|\"is-null\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "numbers": {
+      "match": "\"decimal\"|\"float\"|\"hex\"|\"integer\"|\"is-decimal\"|\"is-float\"|\"is-integer\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "phonenumbers": {
+      "match": "\"phonenumber-parse\"|\"phonenumber-format\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "sets": {
+      "match": "\"difference\"|\"intersection\"|\"intersects\"|\"union\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "strings": {
+      "match": "\"concat\"|\"is-string\"|\"join\"|\"length\"|\"ljust\"|\"lower\"|\"lstrip\"|\"matches\"|\"replace\"|\"rjust\"|\"rstrip\"|\"split\"|\"string\"|\"strip\"|\"substring\"|\"upper\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "uris": {
+      "match": "\"is-uri\"|\"uri\"|\"url-quote\"|\"url-unquote\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "uuids": {
+      "match": "\"is-uuid\"|\"uuid\"",
+      "name": "support.type.property-name.json.comments"
+    },
+    "expression": {
+      "patterns": [
+        {
+          "include": "#vars"
+        },
+        {
+          "include": "#transforms"
+        },
+        {
+          "include": "#bool-logic"
+        },
+        {
+          "include": "#booleans"
+        },
+        {
+          "include": "#bytes"
+        },
+        {
+          "include": "#comparisons"
+        },
+        {
+          "include": "#conditionals"
+        },
+        {
+          "include": "#datetime"
+        },
+        {
+          "include": "#dicts"
+        },
+        {
+          "include": "#encryption"
+        },
+        {
+          "include": "#hops"
+        },
+        {
+          "include": "#json"
+        },
+        {
+          "include": "#lists"
+        },
+        {
+          "include": "#math"
+        },
+        {
+          "include": "#misc"
+        },
+        {
+          "include": "#ni"
+        },
+        {
+          "include": "#nulls"
+        },
+        {
+          "include": "#numbers"
+        },
+        {
+          "include": "#phonenumbers"
+        },
+        {
+          "include": "#sets"
+        },
+        {
+          "include": "#strings"
+        },
+        {
+          "include": "#uris"
+        },
+        {
+          "include": "#uuids"
+        }
+      ]
+    }
+  }
+}

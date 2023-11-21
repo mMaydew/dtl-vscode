@@ -1,0 +1,23 @@
+{
+  "name": "dtl",
+  "displayName": "dtl",
+  "description": "Syntax highlighting for Sesam's Data Transformation Language (DTL)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "dtl.injection",
+        "path": "./syntaxes/dtl-injection.json",
+        "injectTo": [
+          "source.json"
+        ]
+      }
+    ]
+  }
+}
