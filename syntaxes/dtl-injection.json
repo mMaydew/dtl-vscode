@@ -12,92 +12,92 @@
       "name": "support.type.property-name.json.comments"
     },
     "transforms": {
-      "match": "\"add\"|\"add-if\"|\"copy\"|\"create\"|\"create-child\"|\"default\"|\"discard\"|\"filter\"|\"make-ni\"|\"merge\"|\"merge-union\"|\"remove\"|\"rename\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "add|add-if|copy|create|create-child|default|discard|filter|make-ni|merge|merge-union|remove|rename",
+      "name": "support.type.property-name.json"
     },
     "bool-logic": {
-      "match": "\"all\"|\"and\"|\"any\"|\"not\"|\"or\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "all|and|any|not|or",
+      "name": "support.type.property-name.json"
     },
     "booleans": {
-      "match": "\"boolean\"|\"is-boolean\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "boolean|is-boolean",
+      "name": "support.type.property-name.json"
     },
     "bytes": {
-      "match": "\"base64-decode\"|\"base64-encode\"|\"bytes\"|\"is-bytes\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "base64-decode|base64-encode|bytes|is-bytes",
+      "name": "support.type.property-name.json"
     },
     "comparisons": {
-      "match": "\"eq\"|\"gt\"|\"gte\"|\"lt\"|\"lte\"|\"neq\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "eq|gt|gte|lt|lte|neq",
+      "name": "support.type.property-name.json"
     },
     "conditionals": {
-      "match": "\"case\"|\"case-eq\"|\"if\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "case|case-eq|if",
+      "name": "support.type.property-name.json"
     },
     "datetime": {
-      "match": "\"datetime\"|\"datetime-diff\"|\"datetime-format\"|\"datetime-parse\"|\"datetime-plus\"|\"datetime-shift\"|\"is-datetime\"|\"now\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "datetime|datetime-diff|datetime-format|datetime-parse|datetime-plus|datetime-shift|is-datetime|now",
+      "name": "support.type.property-name.json"
     },
     "dicts": {
-      "match": "\"dict\"|\"has-key\"|\"is-dict\"|\"items\"|\"key-values\"|\"keys\"|\"values\"|\"apply-ns\"|\"path\"|\"apply\"|\"apply-hops\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "dict|has-key|is-dict|items|key-values|keys|values|apply-ns|path|apply|apply-hops",
+      "name": "support.type.property-name.json"
     },
     "encryption": {
-      "match": "\"decrypt\"|\"decrypt-pgp\"|\"decrypt-pki\"|\"encrypt\"|\"encrypt-pgp\"|\"encrypt-pki\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "decrypt|decrypt-pgp|decrypt-pki|encrypt|encrypt-pgp|encrypt-pki",
+      "name": "support.type.property-name.json"
     },
     "hops": {
-      "match": "\"hops\"|\"lookup-entity\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "hops|lookup-entity",
+      "name": "support.type.property-name.json"
     },
     "json": {
-      "match": "\"json\"|\"json-parse\"|\"json-transit\"|\"json-transit-parse\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "json|json-parse|json-transit|json-transit-parse",
+      "name": "support.type.property-name.json"
     },
     "lists": {
-      "match": "\"combine\"|\"count\"|\"distinct\"|\"enumerate\"|\"filter\"|\"first\"|\"flatten\"|\"group\"|\"group-by\"|\"in\"|\"insert\"|\"is-empty\"|\"is-list\"|\"is-not-empty\"|\"last\"|\"list\"|\"map\"|\"map-dict\"|\"map-values\"|\"max\"|\"min\"|\"nth\"|\"range\"|\"reversed\"|\"slice\"|\"sorted\"|\"sorted-descending\"|\"sum\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "combine|count|distinct|enumerate|filter|first|flatten|group|group-by|in|insert|is-empty|is-list|is-not-empty|last|list|map|map-dict|map-values|max|min|nth|range|reversed|slice|sorted|sorted-descending|sum",
+      "name": "support.type.property-name.json"
     },
     "math": {
-      "match": "\"-\"|\"*\"\"\/\"|\"%\"|\"^\"|\"+\"|\"abs\"|\"ceil\"|\"cos\"|\"divide\"|\"floor\"|\"minus\"|\"mod\"|\"multiply\"|\"plus\"|\"pow\"|\"round\"|\"sin\"|\"sqrt\"|\"tan\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "abs|ceil|cos|divide|floor|minus|mod|multiply|plus|pow|round|sin|sqrt|tan",
+      "name": "support.type.property-name.json"
     },
     "misc": {
-      "match": "\"fail!\"|\"hash128\"|\"is-changed\"|\"literal\"|\"tuples\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "fail!|hash128|is-changed|literal|tuples",
+      "name": "support.type.property-name.json"
     },
     "ni": {
-      "match": "\"is-ni\"|\"ni\"|\"ni-collapse\"|\"ni-expand\"|\"ni-id\"|\"ni-ns\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "is-ni|ni|ni-collapse|ni-expand|ni-id|ni-ns",
+      "name": "support.type.property-name.json"
     },
     "nulls": {
-      "match": "\"coalesce\"|\"if-null\"|\"is-not-null\"|\"is-null\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "coalesce|if-null|is-not-null|is-null",
+      "name": "support.type.property-name.json"
     },
     "numbers": {
-      "match": "\"decimal\"|\"float\"|\"hex\"|\"integer\"|\"is-decimal\"|\"is-float\"|\"is-integer\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "decimal|float|hex|integer|is-decimal|is-float|is-integer",
+      "name": "support.type.property-name.json"
     },
     "phonenumbers": {
-      "match": "\"phonenumber-parse\"|\"phonenumber-format\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "phonenumber-parse|phonenumber-format",
+      "name": "support.type.property-name.json"
     },
     "sets": {
-      "match": "\"difference\"|\"intersection\"|\"intersects\"|\"union\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "difference|intersection|intersects|union",
+      "name": "support.type.property-name.json"
     },
     "strings": {
-      "match": "\"concat\"|\"is-string\"|\"join\"|\"length\"|\"ljust\"|\"lower\"|\"lstrip\"|\"matches\"|\"replace\"|\"rjust\"|\"rstrip\"|\"split\"|\"string\"|\"strip\"|\"substring\"|\"upper\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "concat|is-string|join|length|ljust|lower|lstrip|matches|replace|rjust|rstrip|split|string|strip|substring|upper",
+      "name": "support.type.property-name.json"
     },
     "uris": {
-      "match": "\"is-uri\"|\"uri\"|\"url-quote\"|\"url-unquote\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "is-uri|uri|url-quote|url-unquote",
+      "name": "support.type.property-name.json"
     },
     "uuids": {
-      "match": "\"is-uuid\"|\"uuid\"",
-      "name": "support.type.property-name.json.comments"
+      "match": "is-uuid|uuid",
+      "name": "support.type.property-name.json"
     },
     "expression": {
       "patterns": [
