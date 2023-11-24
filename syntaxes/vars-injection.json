@@ -1,0 +1,15 @@
+{
+    "scopeName": "vars.injection",
+    "injectionSelector": "L:string.quoted.double.json.comments",
+    "patterns": [
+        {
+            "include": "#vars"
+        }
+    ],
+    "repository": {
+        "vars": {
+            "name": "constant.language.json.comments",
+            "match": "_S\\.|_T\\.|_P\\.|_R\\.|_B\\.|_\\."
+        }
+    }
+}

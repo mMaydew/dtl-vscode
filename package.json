@@ -13,7 +13,14 @@
     "grammars": [
       {
         "scopeName": "dtl.injection",
-        "path": "./syntaxes/dtl-injection.json",
+        "path": "./syntaxes/dtl-injection.plist",
+        "injectTo": [
+          "source.json"
+        ]
+      },
+      {
+        "scopeName": "vars.injection",
+        "path": "./syntaxes/vars-injection.json",
         "injectTo": [
           "source.json"
         ]

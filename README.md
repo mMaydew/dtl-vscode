@@ -6,9 +6,10 @@ DTL is a JSON based language and highlighting would make it 10 times easier to r
 ## TODO:
 ---
 - [ ] Fill out the readme with more detail + installation instructions
-- [ ] Figure out the weird behaviour with function highlighting
+- [x] Figure out the weird behaviour with function highlighting
 - [x] Add highlighting for the built-in variables
-- [ ] Add support for comments (Tested earlier but was very buggy)
+- [x] Add support for single line comments
+- [ ] Figure out how to implement multi line comments
 
 
 ## Dev notes:
