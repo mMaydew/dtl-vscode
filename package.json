@@ -1,8 +1,12 @@
 {
-  "name": "dtl",
-  "displayName": "dtl",
+  "name": "sesam-dtl",
+  "displayName": "sesam-dtl",
   "description": "Syntax highlighting for Sesam's Data Transformation Language (DTL)",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "publisher": "Maydew",
+  "repository": {
+    "url": "https://github.com/mMaydew/dtl-vscode"
+  },
   "engines": {
     "vscode": "^1.84.0"
   },
