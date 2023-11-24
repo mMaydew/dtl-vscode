@@ -3,7 +3,7 @@ DTL is a JSON based language and highlighting would make it 10 times easier to r
 
 
 ## TODO:
-- [ ] Fill out the readme with more detail + installation instructions
+- [x] Fill out the readme with more detail + installation instructions
 - [x] Figure out the weird behaviour with function highlighting
 - [x] Add highlighting for the built-in variables
 - [x] Add support for single line comments
