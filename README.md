@@ -12,6 +12,11 @@ DTL is a JSON based language and highlighting would make it 10 times easier to r
 - [ ] Figure out how to implement multi line comments
 
 
+## Installation:
+Clone the repo into your vs code extensions folder (This is different depending on how you've installed it, best case is to search for something like `.vscode`)
+This just injects itself into the `JSON with Comments` language and will highlight functions and vars (_S. _T. etc)
+
+
 ## Dev notes:
 ---
 The regex for VS code language support is Oniguruma: https://macromates.com/manual/en/regular_expressions
